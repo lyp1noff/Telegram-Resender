@@ -2,10 +2,10 @@ from telethon import TelegramClient, events
 from datetime import datetime
 import config
 
-my_channel_id = -1001442545218
-channels = [-1001423471875, -1001287887017]
+my_channel_id = -1000000000000
+channels = [-1000000000001, -1000000000002]
 
-client = TelegramClient('lyp1noff', config.api_id, config.api_hash)
+client = TelegramClient('data', config.api_id, config.api_hash)
 print("Resender started")
 
 
